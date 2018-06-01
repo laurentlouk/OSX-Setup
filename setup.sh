@@ -39,7 +39,7 @@ function installcask() {
 installcask visual-studio-code
 installcask docker
 installcask google-chrome
-brew cask install postman
+installcask postman
 
 # utils
 installcask skype
