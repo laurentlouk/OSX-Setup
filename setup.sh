@@ -59,6 +59,8 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 sed -i -- 's/robbyrussell/powerlevel9k\/powerlevel9k/g' ~/.zshrc
 brew tap caskroom/fonts
 brew cask install font-hack-nerd-font font-meslo-for-powerline font-meslo-lg font-meslo-nerd-font font-meslo-nerd-font-mono
+mkdir iterm2-themes
+wget -P iterm2-themes https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors
 
 # install and configure vscode
 installcask visual-studio-code
