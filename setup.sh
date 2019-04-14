@@ -50,9 +50,12 @@ installcask phantomjs
 installcask docker
 installcask google-chrome
 installcask insomnia
+installcask github
+installcask figma
 
-# install Iterm2
+# install Terminals
 installcask iterm2
+brew cask install hyper
 
 #configure theme of zsh : powerlevel9k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
@@ -71,6 +74,7 @@ code --install-extension equinusocio.vsc-material-theme
 code --install-extension ahmadawais.shades-of-purple
 code --install-extension dracula-theme.theme-dracula
 code --install-extension vscode-icons-team.vscode-icons
+code --install-extension mauve.terraform
 
 # utils
 installcask spotify
