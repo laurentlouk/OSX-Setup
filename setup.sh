@@ -39,6 +39,9 @@ brew install unrar
 brew install trash
 brew install tree
 brew install tig
+brew install terraform
+brew install jq
+brew install awscli
 
 # OSX native apps
 function installcask() {
